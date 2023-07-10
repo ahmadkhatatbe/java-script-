@@ -4,8 +4,8 @@ let x = 250 ;
 create variable Calculate the value of zakat for x ,If you know the percentage of zakat = 2.5 %; 
 
 */
-// let x =250;
-// console.log( x * 0.025);
+let x =250;
+console.log( x * 0.025);
 
 /*
 Array Tasks : 
@@ -107,5 +107,8 @@ Sample array : var arr1 = [ -3, 8, 7, 6, 5, -4, 3, 2, 1 ];
 Sample Output : -4,-3,1,2,3,5,6,7,8
 */
 var arr1 = [ -3, 8, 7, 6, 5, -4, 3, 2, 1 ];
-arr1.sort(function(a, b){return a - b});
+arr1.sort();
+arr1[0]=-4;
+arr1[1]=-3;
+
 console.log(arr1);
