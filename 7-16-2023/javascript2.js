@@ -38,10 +38,10 @@ submit.onclick = function () {
   };
   information.push(info);
   localStorage.setItem("person", JSON.stringify(information));
-  console.log(info);
+ 
 };
 
-
+ console.log(information);
 function cardpart1() {
     
 

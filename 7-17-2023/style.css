@@ -1,0 +1,22 @@
+table{
+    width: 100%;
+}
+thead{
+    height: 30px;
+}
+.table{
+    background-color: beige;
+   
+   
+
+}
+tbody{
+   
+     text-align: center;
+}
+
+button{
+    background-color: chocolate;
+    width: 100px;
+    height: 30px;
+}

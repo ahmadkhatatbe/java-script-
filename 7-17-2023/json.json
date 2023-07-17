@@ -1,0 +1,26 @@
+
+{"person1" :{
+    "name":"mohammed",
+    "age":"24",
+    "major":"software Engineer",
+    "university":"balqa university",
+    "image":"/7-17-2023/pexels-the-lazy-artist-gallery-3307862.jpg"
+}
+,"person2":{
+    "name":"mohammed",
+    "age":"24",
+    "major":"software Engineer",
+    "university":"balqa university",
+    "image":"/7-17-2023/pexels-the-lazy-artist-gallery-3307862.jpg"
+}
+,"person3":{
+    "name":"hasan",
+    "age":"24",
+    "major":"software Engineer",
+    "university":"balqa university",
+    "image":"/7-17-2023/pexels-the-lazy-artist-gallery-3307862.jpg"
+}
+
+
+
+}
