@@ -1,0 +1,39 @@
+body{
+    background-color: bisque;
+}
+.container{
+    text-align: center;
+}
+input{
+    width: 50%;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    padding-left: 20px;
+    border: none;
+}
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.4s;
+    border: none;
+    background-color: chocolate;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(249, 192, 70);
+    
+}
+table{
+    width: 100%;
+    line-height: 50px;
+}
+thead{
+    background-color: coral;
+}

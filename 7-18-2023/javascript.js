@@ -21,7 +21,7 @@ button.onclick = function () {
                 <th>${data[i].full_name}</th>
                 <th>${data[i].id}</th>
                 <th><a href="${data[i].html_url}">Visit</a></th>
-               
+                <th><img href=""></ima>image</th>
         </tr>`
         
         dataprint.innerHTML=divdata;

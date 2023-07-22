@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+       
+        <label for="txt">Enter your tasks</label>
+        <input type="text" id="txt" >
+        <button id="btn-add" >Add</button><br><br>
+        <label for="inputsearch">Search</label>
+        <input type="text" id="inputsearch" onkeyup="search(this.value)">
+
+         <hr>
+         <table>
+            <thead><tr>
+                <th>Name</th>
+                <th>Number</th>
+                <th>delete</th>
+                <th>Update</th>
+            </tr>
+            </thead>
+            <tbody id="information">
+               
+            </tbody>
+         </table>
+
+    </div>
+    <script src="/crud/javascriptcrud.js"></script>
+</body>
+</html>
