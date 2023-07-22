@@ -123,6 +123,9 @@ for (const key of arrcomma) {
 console.log(joinarr);
 // Excersice 6: Write a JavaScript program to target a given value in a nested JSON object, based on the given key. 
 
+
+
+
 // Excersice 7: Write a JavaScript program to converts a specified number to an array of digits. 
 
 // Excersice 8: Write a JavaScript program to filter out the specified values from an specified array. Return the original array without the filtered values. 

@@ -4,10 +4,44 @@ let btnadd =document.getElementById("btn-add")
 let information =document.getElementById("information")
 let btndelete =document.getElementById("delete")
 let btnupdate =document.getElementById("update")
+let jo= document.getElementById("jo")
+
+
+let mydata =new XMLHttpRequest();
+mydata.onload= function () {
+    
+   let arrdata=JSON.parse(this.responseText);
+console.log(arrdata);
+let ht =``
+for (const key in arrdata) {
+   ht +=
+   `
+   <tr></tr>
+    <td>${arrdata[key].todo}</td>
+    <td>${[key]}</td>
+    <td><button >delete</button></td>
+    <td><button >Update</button></td>
+</tr>
+   
+   `
+}
+information.innerHTML=ht
+
+  
+}
+
+mydata.open("GET","/crud/json.json")
+mydata.send()
+
+
+
 
 let numitem;
 
 let arr=[]
+
+
+
 if(localStorage.infotask!=null){
 
 arr = JSON.parse(localStorage.infotask)
@@ -61,7 +95,7 @@ for (let i = 0; i < arr.length; i++) {
     `
     
 }
-information.innerHTML=ht
+information1.innerHTML=ht
 
 }
 read()
@@ -85,7 +119,7 @@ function search(value) {
   
 
        }
-information.innerHTML=ht
+information1.innerHTML=ht
     }
     
         }
